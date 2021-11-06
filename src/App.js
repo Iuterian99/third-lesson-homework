@@ -6,8 +6,10 @@ function App() {
   const [lang, setLang] = useState("uz");
   return (
     <>
-      <div className="container-fluid bg-info vh-100 d-flex align-items-center justify-content-center">
-        <form className="shadow-lg p-3 mt-4 bg-body rounded w-50">
+      <div className="container-fluid bg-info vh-100 ">
+        <h1 className="h1 text-center">Made by Abdukhalim!</h1>
+
+        <form className="shadow-lg p-3 mt-5 bg-body rounded w-50 mx-auto">
           <select
             className="form-select ms-auto"
             style={{ width: "120px" }}
@@ -18,12 +20,11 @@ function App() {
             <option value="en">English</option>
             <option value="ru">Russian</option>
           </select>
-          <label htmlFor="email">
+          <label htmlFor="email" className="d-flex flex-column">
             <p className="mb-2">{content[lang].emailLabelStart}</p>
             <input
               id="email"
-              className="form-control"
-              style={{ width: "450px" }}
+              className="form-control flex-grow-1"
               type="email"
               placeholder={content[lang].emailPlaceholder}
               autoFocus
@@ -31,12 +32,11 @@ function App() {
             />
             <p className="text-warning">{content[lang].emailLabelEnd}</p>
           </label>
-          <label htmlFor="parol" className="mt-2">
+          <label htmlFor="parol" className="mt-2 d-flex flex-column">
             <p className="mb-2">{content[lang].parolLabelStart}</p>
             <input
               id="parol"
-              className="form-control"
-              style={{ width: "450px" }}
+              className="form-control flex-grow-1"
               type="password"
               placeholder={content[lang].parolPlaceholder}
               required
