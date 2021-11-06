@@ -1,5 +1,6 @@
 const content = {
   uz: {
+    madeBy: "Yaratuvchi: Abduhalim!",
     emailLabelStart: "Email manzil:",
     emailPlaceholder: "Emailingizni kiriting...",
     emailLabelEnd: "Emailingiz tarqalmaydi!",
@@ -10,6 +11,7 @@ const content = {
     send: "Yuborish!",
   },
   en: {
+    madeBy: "Made by Abdukhalim!",
     emailLabelStart: "Email:",
     emailPlaceholder: "Input your email:",
     emailLabelEnd: "we won`t send your email to anyone!",
@@ -20,6 +22,7 @@ const content = {
     send: "Send!",
   },
   ru: {
+    madeBy: "Создатель: Абдухалим!",
     emailLabelStart: "Эл. почта:",
     emailPlaceholder: "Введите свой адрес электронной почты...",
     emailLabelEnd: "ваша электронная почта не будет распространяться!",

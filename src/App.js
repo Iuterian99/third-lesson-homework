@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="container-fluid bg-info vh-100">
-        <h1 className="h1 text-center pt-4">Made by Abdukhalim!</h1>
+        <h1 className="h1 text-center pt-4">{content[lang].madeBy}</h1>
 
         <form className="shadow-lg p-3 mt-5 bg-body rounded w-50 mx-auto">
           <select
