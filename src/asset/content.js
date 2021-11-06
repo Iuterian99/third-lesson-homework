@@ -13,10 +13,10 @@ const content = {
     emailLabelStart: "Email:",
     emailPlaceholder: "Input your email:",
     emailLabelEnd: "we won`t send your email to anyone!",
-    parolLabelStart: "Parol:",
+    parolLabelStart: "Password:",
     parolPlaceholder: "Input your parol...",
     parolLabelEnd: "we won`t send your parol to anyone!",
-    remember: "Remember!",
+    remember: "Keep sign in!",
     send: "Send!",
   },
   ru: {

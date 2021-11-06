@@ -7,10 +7,7 @@ function App() {
   return (
     <>
       <div className="container-fluid bg-info vh-100 d-flex align-items-center justify-content-center">
-        <form
-          className="shadow-lg p-3 mt-4 bg-body rounded"
-          style={{ width: "450px" }}
-        >
+        <form className="shadow-lg p-3 mt-4 bg-body rounded w-50">
           <select
             className="form-select ms-auto"
             style={{ width: "120px" }}
@@ -26,7 +23,7 @@ function App() {
             <input
               id="email"
               className="form-control"
-              style={{ width: "400px" }}
+              style={{ width: "450px" }}
               type="email"
               placeholder={content[lang].emailPlaceholder}
               autoFocus
@@ -39,7 +36,7 @@ function App() {
             <input
               id="parol"
               className="form-control"
-              style={{ width: "400px" }}
+              style={{ width: "450px" }}
               type="password"
               placeholder={content[lang].parolPlaceholder}
               required
