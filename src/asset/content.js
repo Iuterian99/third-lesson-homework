@@ -11,7 +11,7 @@ const content = {
     send: "Yuborish!",
   },
   en: {
-    madeBy: "Made by Abdukhalim!",
+    madeBy: "Creator: Abdukhalim!",
     emailLabelStart: "Email:",
     emailPlaceholder: "Input your email:",
     emailLabelEnd: "we won`t send your email to anyone!",
